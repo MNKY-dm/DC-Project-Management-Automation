@@ -1,0 +1,12 @@
+{
+  "manifest_version": 1,
+  "name": "DC Project Management Automation",
+  "version": "0.1",
+  "description": "Automatisation Notion Web App pour changer le status d'une tâche de notre espace Gestion de projets automatiquement pendant le remplissage.",
+  "content_scripts": [
+    {
+      "matches": ["https://app.notion.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
